@@ -1,14 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+header {
+    position: absolute;
+    top: -50px;
+    left: 65%; 
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}
+header h1 {
+    font-size: 75px;
+    margin-bottom: 5px;
+}
+header p{
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.logo-container{ 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.logo-container img {
+    width: 400px;
+    height: auto;
+    border-radius: 5px 10px 10px 5px;
+}    
+.logo-container img:hover {
+        transform: scaleX(-1);
+    } 
 
 body {
   font-family: 'Acme';
   color: black;
-  background: url('IMGS/younggreensprouting.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1)),url('IMGS/younggreensprouting.jpg') center/cover no-repeat;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  
 }
 
 .container {
@@ -23,23 +54,6 @@ body {
   text-align: center;
   position: relative;
   overflow: hidden;
-
-.logo-container {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    text-align: top;
-}
-
-.logo-container img {
-    width: 100px;
-    height: auto;
-}
-
-.logo-container ul {
-    list-style: none;
-    padding: 0;
-    font-size: 14px;
 }
 
 /* Navigation Bar */
@@ -104,4 +118,4 @@ button {
 button:hover {
     background: #555;
 }
-}
+
