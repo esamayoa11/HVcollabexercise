@@ -1,2 +1,2 @@
 # HVcollabexercise
-This is HV website assignment. 
+This is Harrold Ventayen's website for TKH collab assignment. 
