@@ -5,4 +5,4 @@ The intention was to create a page that resembles a business card. It displays t
 
 I incorporated some opacity to the images to assist with readability and image flip of the HV.png just for fun.  
 
-I also incorporated some Java to help make the hiding and appearing of the nav bar and contents hide and appear as needed.
+I also incorporated some Java to help make the hiding and appearing of the nav bar and contents perform as needed.
